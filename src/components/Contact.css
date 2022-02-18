@@ -1,0 +1,69 @@
+.contact-us{
+    width: 77vw;
+    margin: auto;
+
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    font-size: 28px;   
+    z-index: 3;
+    box-shadow: 1px 1px 46px #524c4c;
+   
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    color: rgb(21, 21, 51);
+    text-align: center;
+}
+.info h1{
+
+    font-family: system-ui;
+    font-weight: 300;
+    
+}
+.info h2{
+font-family: cursive;
+}
+.info h3{
+   
+    font-size: 31px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    position: relative;
+    background-color: rgb(237 237 249);
+  
+}
+.form-group input, textarea{
+    width: 275px;
+    height: 37px;
+    font-size: 16px;
+}
+.form-group textarea{
+    height: 161px;
+    width: 286px;
+}
+.bttn{
+    margin: 26px;
+    padding: 9px 65px;
+    font-size: 17px;
+    background-color: rgb(21, 21, 51);
+    color: #ccbebe;
+    cursor: pointer;
+    margin-right: 230px;
+
+}
+.bttn:hover{
+    font-weight: bold;
+    background-color: rgb(39 39 58);
+    color: #ccbebe;
+}

@@ -1,0 +1,117 @@
+.menu{
+    margin:auto;
+    width: 77vw;
+    padding: 57px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    box-shadow: 1px 1px 46px #524c4c;
+}
+.menu-text{
+    margin: 14px 47px;
+    font-size: 30px;
+   
+}
+.menu-text h1{
+    padding: 22px 39px;
+    margin: 32px;
+    font-size: 95px;
+    font-weight: 300;
+}
+
+    /*STARTERS*/
+
+.heading{
+    margin-bottom: 72px;
+    font-size: 45px;
+    font-family: cursive;
+    color: rgb(138 115 115);
+
+}
+.starter-items{
+    width: 77vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+.v-item{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.nv-item{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.v-item h2{
+   
+    color: #38a938;
+    font-size: 20px;
+}
+h3{
+    font-size: 20px;
+}
+.nv-item h2{
+    color: #e85c5c;
+    font-size: 20px;
+}
+
+/*MAIN COURSE*/
+.main-course{
+    position: relative;
+    top: 121px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 46px #524c4c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 57px;
+    width: 77vw;
+    margin: auto;
+}
+.maincourse-items{
+    padding: 82px 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 77vw;
+}
+
+
+
+/*drink and desert*/
+.Drink-desert{
+    position: relative;
+    top: 233px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 46px #524c4c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 57px;
+    width: 77vw;
+    margin: auto;
+}
+.drink-desert-items{
+    padding: 82px 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 77vw;
+}
+
+.drink-desert-items h2{
+    font-size: 20px;
+}
+.drink{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.desert{
+    display: flex;
+    justify-content: space-between;
+  
+}

@@ -1,0 +1,149 @@
+/*about-food*/
+
+
+.indian-food{
+    
+    text-align: center;
+    width: 77vw;
+    margin: auto;
+}
+
+.food-text{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    font-size: 28px;   
+    z-index: 3;
+    box-shadow: 1px 1px 46px #524c4c;
+
+}
+
+    .food-text::before{
+        content: ""; 
+        background:url('./photos/veg-main.jpg')no-repeat center center/cover;
+       height: 100%;
+       width: 100%;
+       z-index:-1;
+       opacity:52%;
+       position: absolute;
+       transition: 0.3s ease-in-out;
+    }
+
+  
+    /*about-drink*/
+
+    .indian-drink{
+    
+        text-align: center;
+        width: 80vw;
+        margin: auto;
+    
+        
+    }
+    .drink-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+        font-size: 28px;   
+        z-index: 3;
+        box-shadow: 1px 1px 46px #524c4c;
+    
+    }
+    
+        .drink-text::before{
+            content: ""; 
+            background:url('./photos/drink.jpg')no-repeat center center/cover;
+           height: 100%;
+           width: 100%;
+           z-index:-1;
+           opacity:52%;
+           position: absolute;
+           transition: 0.3s ease-in-out;
+        }
+    
+        .drink-text h2{
+            font-size: 66px;
+            color: rgb(173 136 136);
+            font-family: cursive;
+        
+        }
+
+        .drink-text p{
+            font-family: cursive;
+        }
+
+
+        /*about-sweets*/
+.indian-sweets{
+    padding: 80px 16px;
+    display: flex;
+    width: 77vw;
+    margin: auto;
+    margin-top: 176px;
+}
+.sweet-image img{
+    width: 69%;
+    opacity: 0.8;
+    z-index: -1;
+    box-shadow: 1px 1px 46px #524c4c
+}
+.sweet-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 28px;
+    
+}
+.sweet-text h2{
+    font-size: 66px;
+    color: rgb(173 136 136);
+    font-family: cursive;
+
+}
+.sweet-text p{
+    font-family: cursive;
+
+}
+
+
+
+/*about us*/
+
+.our-text h2{
+    font-size: 97px;
+    color: rgb(21, 21, 51);
+    font-family: auto;
+   
+}
+
+
+.about-us{
+    
+    text-align: center;
+
+
+    
+}
+.our-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    font-size: 28px;   
+    z-index: 3;
+    box-shadow: 1px 1px 46px #524c4c;
+    margin-top: 340px;
+
+}
+
+    .our-text::before{
+        content: ""; 
+        background:url('./photos/us.jpg')no-repeat center center/cover;
+       height: 100%;
+       width: 100%;
+       z-index:-1;
+       opacity:52%;
+       position: absolute;
+       transition: 0.3s ease-in-out;
+    }

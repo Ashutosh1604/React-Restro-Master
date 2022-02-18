@@ -1,0 +1,75 @@
+
+
+/*button*/
+.btn{
+    margin: 121px;
+    padding: 18px 33px;
+    font-size: 17px;
+    background-color: rgb(21, 21, 51);
+    color: #ccbebe;
+    cursor: pointer;
+   
+}
+.btn:hover{
+    font-weight: bold;
+    background-color: rgb(39 39 58);
+    color: #ccbebe;
+}
+
+/*images*/
+figure{
+ 
+    width: 20vw;
+    overflow: hidden;
+   
+   }
+ figure img{
+    width: 25vw;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+figure img:hover{
+    transform: scale(1.2);
+}
+
+
+/*details*/
+.details{
+    position: relative;
+    top: 310px;
+    margin: 49pa 2px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f3ecf3;
+    font-family: auto;
+    box-shadow: 1px 1px 46px #524c4c;
+}
+.details h1{
+    font-size: 54px;
+    color: #6d2222;
+}
+.contact h3{
+    font-size: 27px;
+    color: #6d2222;
+}
+.timming{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+
+}
+/*footer-area*/
+.footer{
+    background-color: rgb(39 39 58);
+    position: relative;
+    top: 310px;
+    margin-right: -12px
+}
+.footer p{
+    text-align: center;
+    color: whitesmoke;
+    padding: 40px;
+}

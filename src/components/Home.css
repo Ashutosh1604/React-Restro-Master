@@ -1,0 +1,51 @@
+.services{
+    position: relative;
+    top: 121px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 46px #524c4c;
+    padding: 82px 59px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.services h1{
+    font-size: 49px;
+    font-weight: 500;
+    padding: 3px;
+}
+.service {
+    display: flex;
+    justify-content: center;
+    width: 77vw;
+}
+.service a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
+.service a img{
+    width: 20vw;
+    padding: 2px 0px;
+
+}
+.service a img.icon3{
+    border-radius: 220px;
+}
+.service h2{
+    font-size: 33px;
+    font-family: system-ui;
+    font-weight: 100px;
+    font-weight: 500;
+    
+}
+.home-pics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
